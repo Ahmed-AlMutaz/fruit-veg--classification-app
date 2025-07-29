@@ -6,19 +6,19 @@ This is a simple image classification app for fruits and vegetables built with *
 
 1. Install the dependencies:
 
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 
 2. Run the notebook first to download the model file:
 
-Open fruits-vegetables.ipynb
+  Open fruits-vegetables.ipynb
 
-Run all the cells
-
-(This will automatically download classify_Image3.h5 if it's not already present)
+  Run all the cells
+  
+  (This will automatically download classify_Image3.h5 if it's not already present)
 
 3. Then launch the Streamlit app :
-streamlit run App.py  
+  streamlit run App.py  
 
 4. Once the app opens in your browser, you can upload any fruit or vegetable image to see the prediction and confidence score.
 
